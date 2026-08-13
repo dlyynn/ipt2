@@ -1,0 +1,292 @@
+[
+    {
+      "Id": "1",
+      "firstname": "Maynard L.",
+      "lastname": "Aragon",
+      "gender": "Male",
+      "idNumber": "016-0057",
+      "birthday": "",
+      "age": 0,
+      "address": ["Street", "Barangay", "City", "Province"]
+    },
+    {
+      "Id": "2",
+      "firstname": "Karl Louie",
+      "lastname": "Baquiran",
+      "gender": "Male",
+      "idNumber": "019-0191",
+      "birthday": "04-03-2006",
+      "age": 20,
+      "address": ["Bintawan Road", "San Luis", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "3",
+      "firstname": "Jeffrey",
+      "lastname": "Belandres",
+      "gender": "Male",
+      "idNumber": "22-10066",
+      "birthday": "06-09-2003",
+      "age": 23,
+      "address": ["Maligaya", "Casat", "Bayombong", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "4",
+      "firstname": "Ranier",
+      "lastname": "Bermudez",
+      "gender": "Male",
+      "idNumber": "24-10449",
+      "birthday": "06-29-2005",
+      "age": 21,
+      "address": ["J Manzano St.", "Roxas", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "5",
+      "firstname": "Jaycee A.",
+      "lastname": "Cabatic",
+      "gender": "Male",
+      "idNumber": "24-10027",
+      "birthday": "",
+      "age": 0,
+      "address": ["Street", "Barangay", "City", "Province"]
+    },
+    {
+      "Id": "6",
+      "firstname": "Ryan M.",
+      "lastname": "Cave",
+      "gender": "Male",
+      "idNumber": "24-10080",
+      "birthday": "06-22",
+      "age": 22,
+      "address": ["Pacursa", "Roxas", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "7",
+      "firstname": "Marc Ronniel B.",
+      "lastname": "Cortes",
+      "gender": "Male",
+      "idNumber": "018-0135",
+      "birthday": "04-05-2006",
+      "age": 20,
+      "address": ["Purok 2 Taggapan", "Osmena", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "8",
+      "firstname": "Lyn",
+      "lastname": "Dela Cruz",
+      "gender": "Female",
+      "idNumber": "23-0167",
+      "birthday": "01-09-2005",
+      "age": 20,
+      "address": ["Ilang-Ilang", "Quirino", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "9",
+      "firstname": "Nicole",
+      "lastname": "Dela Cruz",
+      "gender": "Female",
+      "idNumber": "24-10158",
+      "birthday": "09-25-2006",
+      "age": 19,
+      "address": ["Luna st.", "Roxas", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "10",
+      "firstname": "John Jr. D.",
+      "lastname": "Dogwe",
+      "gender": "Male",
+      "idNumber": "22-10009",
+      "birthday": "",
+      "age": 0,
+      "address": ["Street", "Barangay", "City", "Province"]
+    },
+    {
+      "Id": "11",
+      "firstname": "Kurt A.",
+      "lastname": "Francisco",
+      "gender": "Male",
+      "idNumber": "22-10296",
+      "birthday": "03-24-2002",
+      "age": 23,
+      "address": ["Silawan", "Roxas", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "12",
+      "firstname": "Xiameigh B.",
+      "lastname": "Galera",
+      "gender": "Female",
+      "idNumber": "20-10336",
+      "birthday": "05-04-2004",
+      "age": 22,
+      "address": ["Purok 4 Binacao St.", "Quirino", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "13",
+      "firstname": "Francis Robert C.",
+      "lastname": "Gecobe",
+      "gender": "Male",
+      "idNumber": "23-0537",
+      "birthday": "",
+      "age": 0,
+      "address": ["Street", "Barangay", "City", "Province"]
+    },
+    {
+      "Id": "14",
+      "firstname": "Princes Norielle C.",
+      "lastname": "Graganta",
+      "gender": "Female",
+      "idNumber": "24-10020",
+      "birthday": "01-27-2006",
+      "age": 20,
+      "address": ["Ilang-Ilang", "Quirino", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "15",
+      "firstname": "Marielle Joy C.",
+      "lastname": "Gulpani",
+      "gender": "Female",
+      "idNumber": "24-10003",
+      "birthday": "11-06-2005",
+      "age": 20,
+      "address": ["Galamay", "Bonfal Proper", "Bayombong", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "16",
+      "firstname": "James P.",
+      "lastname": "Ilarde",
+      "gender": "Male",
+      "idNumber": "24-10071",
+      "birthday": "12-04-2003",
+      "age": 22,
+      "address": ["Bintawan Road", "Lactawan", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "17",
+      "firstname": "Trisha Joy I.",
+      "lastname": "Lumicao",
+      "gender": "Female",
+      "idNumber": "22-10186",
+      "birthday": "",
+      "age": 0,
+      "address": ["Street", "Barangay", "City", "Province"]
+    },
+    {
+      "Id": "18",
+      "firstname": "Julie Nieves",
+      "lastname": "Madriaga",
+      "gender": "Female",
+      "idNumber": "24-10244",
+      "birthday": "07-09-2000",
+      "age": 26,
+      "address": ["Galamay", "Bonfal Proper", "Bayombong", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "19",
+      "firstname": "Karl Russel S.",
+      "lastname": "Mariano",
+      "gender": "Male",
+      "idNumber": "017-0076",
+      "birthday": "11-08-2004",
+      "age": 22,
+      "address": ["Purok 2", "Maddiangat", "Quezon", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "20",
+      "firstname": "Sunshine C.",
+      "lastname": "Nasgatan",
+      "gender": "Female",
+      "idNumber": "018-0189",
+      "birthday": "10-06-2006",
+      "age": 19,
+      "address": ["Sinafal", "Curifang", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "21",
+      "firstname": "Gary Noel B.",
+      "lastname": "Pascua",
+      "gender": "Male",
+      "idNumber": "22-10578",
+      "birthday": "",
+      "age": 0,
+      "address": ["Street", "Barangay", "City", "Province"]
+    },
+    {
+      "Id": "22",
+      "firstname": "John Ianmher P.",
+      "lastname": "Policarpio",
+      "gender": "Male",
+      "idNumber": "24-10108",
+      "birthday": "03-20-2006",
+      "age": 20,
+      "address": ["Silawan", "Quirino", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "23",
+      "firstname": "Jeremy",
+      "lastname": "Pontino",
+      "gender": "Male",
+      "idNumber": "24-10273",
+      "birthday": "9-29-2006",
+      "age": 19,
+      "address": ["Linglingay", "Pieza", "Villaverde", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "24",
+      "firstname": "Jan Angelo",
+      "lastname": "Ret",
+      "gender": "Male",
+      "idNumber": "24-10002",
+      "birthday": "08-26-2006",
+      "age": 19,
+      "address": ["Purok 6", "Careb", "Bagabag", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "25",
+      "firstname": "Normandy P.",
+      "lastname": "Ringpis",
+      "gender": "Male",
+      "idNumber": "20-10815",
+      "birthday": "",
+      "age": 0,
+      "address": ["Street", "Barangay", "City", "Province"]
+    },
+    {
+      "Id": "26",
+      "firstname": "Rica Jane L.",
+      "lastname": "Salazar",
+      "gender": "Female",
+      "idNumber": "24-10001",
+      "birthday": "05-11-2006",
+      "age": 20,
+      "address": ["Purok 4", "Quirino", "Solano", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "27",
+      "firstname": "Jose C.",
+      "lastname": "Soriano V",
+      "gender": "Male",
+      "idNumber": "24-10306",
+      "birthday": "09-05-2006",
+      "age": 19,
+      "address": ["Pastoril", "Bonfal West", "Bayombong", "Nueva Vizcaya"]
+    },
+    {
+      "Id": "28",
+      "firstname": "Adam Judd A.",
+      "lastname": "Valdez",
+      "gender": "Male",
+      "idNumber": "018-0207",
+      "birthday": "",
+      "age": 0,
+      "address": ["Street", "Barangay", "City", "Province"]
+    },
+    {
+      "Id": "29",
+      "firstname": "Mark Joshua N.",
+      "lastname": "Yapit",
+      "gender": "Male",
+      "idNumber": "24-10448",
+      "birthday": "07-25-2003",
+      "age": 23,
+      "address": ["J Manzano St.", "Roxas", "Solano", "Nueva Vizcaya"]
+    }
+  ]

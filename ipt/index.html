@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Directory</title>
+</head>
+<body>
+
+  <h1>Class Student Directory</h1>
+
+  <div id="file-picker" hidden>
+    <p>Select your students.json file manually:</p>
+    <input type="file" id="fileInput" accept=".json">
+  </div>
+
+  <div id="student-list">Loading student data...</div>
+
+  <script>
+    function displayData(students) {
+      const container = document.getElementById('student-list');
+      container.innerHTML = '';
+
+      students.forEach(student => {
+        const div = document.createElement('div');
+        
+        const addressText = Array.isArray(student.address) 
+          ? student.address.join(', ') 
+          : student.address;
+
+        div.innerHTML = `
+          <h2>${student.firstname} ${student.lastname} (${student.gender})</h2>
+          <p><strong>ID Number:</strong> ${student.idNumber}</p>
+          <p><strong>Birthday:</strong> ${student.birthday} </p>
+          <p><strong>Age:</strong> ${student.age}</p>
+          <p><strong>Address:</strong> ${addressText}</p>
+          <hr>
+        `;
+        container.appendChild(div);
+      });
+    }
+
+    fetch('students.json')
+      .then(response => {
+        if (!response.ok) throw new Error("Could not load automatically");
+        return response.json();
+      })
+      .then(data => displayData(data))
+      .catch(error => {
+        document.getElementById('file-picker').hidden = false;
+        document.getElementById('student-list').innerHTML = '<p>Please choose your file above to view the data.</p>';
+      });
+
+    document.getElementById('fileInput').addEventListener('change', function(event) {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            const data = JSON.parse(e.target.result);
+            displayData(data);
+            document.getElementById('file-picker').hidden = true;
+          } catch (err) {
+            alert('Invalid JSON file format.');
+          }
+        };
+        reader.readAsText(file);
+      }
+    });
+  </script>
+</body>
+</html>
