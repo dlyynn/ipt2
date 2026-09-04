@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "idNumber": "STU-2026-001",
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 20,
+      "gender": "Male",
+      "bloodType": "O"
+    },
+    {
+      "id": 2,
+      "idNumber": "STU-2026-002",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "age": 22,
+      "gender": "Female",
+      "bloodType": "A"
+    }
+  ]
+}
